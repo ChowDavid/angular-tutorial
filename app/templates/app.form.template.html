@@ -7,7 +7,7 @@
             <div [hidden]="username.valid || username.untouched">
                 The following problems have been found with the username:
                 <div [hidden]="!username.hasError('minlength')">
-                    Username can not be shorter than 5 characters.
+                    Username can not be shorter than 3 characters.
                 </div>
                 <div [hidden]="!username.hasError('required')">
                     Username is required.

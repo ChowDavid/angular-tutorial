@@ -3,7 +3,8 @@ import { FormControl, FormGroup, FormBuilder, Validators } from '@angular/forms'
 
 @Component({
     selector: 'my-app',
-    templateUrl: 'app/templates/app.form.template.html'
+    templateUrl: 'app/templates/app.form.template.html',
+    providers: [FormBuilder]
 })
 export class AppFormComponent implements OnInit {
     myForm: FormGroup;
