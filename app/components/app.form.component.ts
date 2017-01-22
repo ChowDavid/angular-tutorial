@@ -14,10 +14,6 @@ export class AppFormComponent implements OnInit {
     constructor(private builder: FormBuilder) {}
 
     ngOnInit() {
-         this.myForm = this.builder.group({
-            username: this.username,
-            email: this.email
-        });
         this.username = new FormControl('', [
             Validators.required,
             Validators.minLength(3)
@@ -26,17 +22,9 @@ export class AppFormComponent implements OnInit {
             Validators.required,
             Validators.minLength(3)
         ]);
-        this.myForm.valueChanges.subscribe(data => {
-            console.log('Form changes', data);
-
-        });
-        this.username.valueChanges.subscribe(data => {
-            console.log('Username changes', data);
-
-        });
-        this.email.valueChanges.subscribe(data => {
-            console.log('Email changes', data);
-
+         this.myForm = this.builder.group({
+            username: this.username,
+            email: this.email
         });
     }
 }
