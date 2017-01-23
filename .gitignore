@@ -1,1 +1,4 @@
 node_modules/**
+app/**
+!app/**/*.ts
+!app/**/*.html

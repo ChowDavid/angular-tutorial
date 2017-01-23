@@ -17,8 +17,20 @@
         <div class="form-group">
             <label>Email</label>
             <input type="text" class="form-control" [formControl]="email">
+             <div [hidden]="email.valid || email.untouched">
+                The following problems have been found with the username:
+                <div [hidden]="!email.hasError('minlength')">
+                    Email can not be shorter than 3 characters.
+                </div>
+                <div [hidden]="!email.hasError('required')">
+                    email is required.
+                </div>
+                 <div [hidden]="!email.hasError('emailError')">
+                    email is not valid format.
+                </div>
+            </div>
         </div>
-        <button type="submit" [disabled]="!myForm.valid">Submit</button>
+        <button type="submit" [disabled]="!myForm.valid" class="btn btn-default">Submit</button>
     </form>
     <div>{{myForm.valid | json}}</div>
     <div>{{myForm.value | json}}</div>
