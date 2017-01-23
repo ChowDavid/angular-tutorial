@@ -168,3 +168,6 @@ Shut it down manually with `Ctrl-C`.
 [travis-badge]: https://travis-ci.org/angular/quickstart.svg?branch=master
 [travis-badge-url]: https://travis-ci.org/angular/quickstart
 # angular-tutorial
+- please note on this moment we don't have e2e folder. It was removed.
+- We will follow the book resources/ngcourse2.pdf and hope one html for one topics.
+
