@@ -1,4 +1,3 @@
 node_modules/**
-app/**
-!app/**/*.ts
-!app/**/*.html
+app/**/*.js
+app/**/*.js.map
