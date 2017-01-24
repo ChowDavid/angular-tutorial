@@ -9,7 +9,7 @@ target show, How parameter passing from attr, parent component communicate with 
 
 #Summary
 | Module        | Main Component| Angular Items  |
-| ------------- |:-------------:| -----:|
+| :-------------: | :-------------: | :-----: |
 | demo_form     | app.form.component.ts   | FormControl, FormGroup, FormBuilder, Validators, OnInit, Custom Validator |
 | demo_oneway_binding    | app.onewayBinding.child.component.ts<br/>app.onewayBinding.parent.component.ts   |   @Input, ng-content, event, ElementRef |
 
