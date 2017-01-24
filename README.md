@@ -1,11 +1,16 @@
 #Angular-tutorial
-It include many sub project. Please cd to index, the npm install and npm start for main index.
+It includes many sub projects.
+<pre><code>
+cd <demo_something>
+npm install
+npm start</code>
+</pre>
 
 #demo_form
-target show, try to reverse the order for FormGroup and FormControl under ngOnInit(){}
+Try to reverse the order for FormGroup and FormControl under ngOnInit(){}
 
 #demo_oneway_binding
-target show, How parameter passing from attr, parent component communicate with child component
+Show how parameter passing from attr, parent component communicate with child component
 
 #Summary
 | Module        | Main Component| Angular Items  |
