@@ -1,7 +1,7 @@
-#Angular-tutorial
-It includes many sub projects.
-Please download ebooks [ ngcourse2.pdf ](https://www.gitbook.com/book/rangle-io/ngcourse2/details)
-
+#Angular2-tutorial
+-Learn TypeScript, Angular2 to family the web development
+-Please download ebooks [ ngcourse2.pdf ](https://www.gitbook.com/book/rangle-io/ngcourse2/details)
+-There are some demo module for try and learn the skill
 <pre><code>
 cd demo_something
 npm install
