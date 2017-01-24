@@ -1,7 +1,7 @@
 #Angular-tutorial
 It includes many sub projects.
 <pre><code>
-cd <demo_something>
+cd demo_something
 npm install
 npm start</code>
 </pre>
