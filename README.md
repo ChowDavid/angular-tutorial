@@ -1,5 +1,7 @@
 #Angular-tutorial
 It includes many sub projects.
+Please download ebooks [ ngcourse2.pdf ](https://www.gitbook.com/book/rangle-io/ngcourse2/details)
+
 <pre><code>
 cd demo_something
 npm install
