@@ -1,0 +1,33 @@
+{
+  "name": "ch2",
+  "remark" : "systemjs must use 0.19.37. if higher version said ^0.20.X it does not work. I have no idea at the moment.",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server --port=3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^2.4.5",
+    "@angular/compiler": "^2.4.5",
+    "@angular/core": "^2.4.5",
+    "@angular/forms": "^2.4.5",
+    "@angular/http": "^2.4.5",
+    "@angular/platform-browser": "^2.4.5",
+    "@angular/platform-browser-dynamic": "^2.4.5",
+    "@angular/router": "^3.4.5",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.0.3",
+    "systemjs": "0.19.37",
+    "zone.js": "^0.7.6"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "typescript": "2.0.0"
+  }
+}
